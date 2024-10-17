@@ -49,6 +49,7 @@ jobs:
           path: coverage
           retention-days: 5
   docker:
+    continue-on-error: true
     permissions:
       packages: write
     runs-on: ubuntu-latest
