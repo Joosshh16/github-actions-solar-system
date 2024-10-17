@@ -34,7 +34,9 @@ jobs:
     
         - name: Unit Testing
           id: nodejs-unit-testing
-          run: npm test
+          run: |
+            echo "MONGO_URI; ${{ env.MONGO_URI }}"
+            npm test
           
         - name: Archive Test Result
           if: always() #added
