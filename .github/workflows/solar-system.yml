@@ -33,7 +33,7 @@ jobs:
           run: npm install
     
         - name: Unit Testing
-          id: nodejs-unit-testing-step
+          id: nodejs-unit-testing
           run: npm test
           
         - name: Archive Test Result
