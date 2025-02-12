@@ -1,4 +1,4 @@
-name: Solar Sys Workflow
+name: Containerization workflow
 
 on:
   workflow_dispatch:
